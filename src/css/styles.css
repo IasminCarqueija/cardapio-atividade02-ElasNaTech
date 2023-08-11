@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: #ffedd5;
+    background-image: url('../img/bg-coffee-beans.png');
+    background-repeat: repeat-x;
+    font-family: 'Spectral', serif;
+}
+
+/*estilos do cabeçalho*/
+.cabecalho {
+    max-width: 38vw;
+    max-height: 6.5vw;
+    margin: 1.25em auto 5em;
+    background-color: rgba(245, 245, 245, 0.8);
+    border-radius: 40%;
+    border-style: groove;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7em;
+}
+#icone-logo {
+    height: 6vw;
+    max-height: 50%;
+}
+.titulos {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2vw;
+}
+header h1 {
+    margin-bottom: -0.5em;
+}
+header h3 {
+    color: #753d01;
+}
+header h1 span {
+    color: #995000;
+}
+
+
+/*estilos dos produtos*/
+.principal {
+    display: block;
+    max-width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1.875em;
+    font-size: 1.1vw;
+}
+.section {
+    margin-bottom: 4em;
+}
+.categorias {
+    background-color: #fed7aa;
+    color: #995000;
+    text-align: center;
+    padding: 6px 0;
+    border-radius: 30%;
+    border-style: groove;
+    margin-bottom: 2.5em;
+}
+.produtos {
+    margin: 0 1.875em;
+}
+.imagens {
+    height: 100%;
+    max-width: 28vw;
+}
+#img-bebidas {
+    float: right;
+    margin: 7em auto 7em 4.375em;
+}
+#img-comidas {
+    float: left;
+    margin: 8em 4.375em 9em auto;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+ul li {
+    max-width: 33.5em;
+    display: flex;
+    justify-content: space-between;
+}
+ul li h3 {
+    color: #753d01;
+}
+li .details {
+    max-width: 15.625em;
+}
+.description {
+    margin-bottom: 1.25em;
+}
+
+/*estilos do rodapé*/
+.conteudo-rodapé {
+    color: #753d01;
+    margin: auto auto 0 10em;
+    font-size: 1.1vw;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: #582e01;
+}
+a:hover {
+    text-decoration: underline;
+}
+.contatos a {
+    padding: 10px;
+    color: #753d01;
+}
+
+.copyright {
+    margin: 0.625em auto 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    color: #1a1919cb;
+}
